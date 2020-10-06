@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>RoombaLib</Title>
+        <Authors>Renzan</Authors>
+        <Description>Control library for iRobot Roomba robot vacuums</Description>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Roomba;iRobot</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Copyright>Copyright 2020 Daniel Sebring</Copyright>
+        <RepositoryUrl>https://github.com/DanielSe/RoombaLib</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MQTTnet" Version="3.0.12" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoombaLib", "RoombaLib\RoombaLib.csproj", "{F1D5A74A-6260-411B-B5EE-ACE92E4091DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoombaLibTests", "RoombaLibTests\RoombaLibTests.csproj", "{6635A415-AFCF-406F-B102-9C145489FF02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{A8599928-BD27-4E20-98B4-D903FA69790F}"
+ProjectSection(SolutionItems) = preProject
+	license.txt = license.txt
+	readme.md = readme.md
+EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D5A74A-6260-411B-B5EE-ACE92E4091DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D5A74A-6260-411B-B5EE-ACE92E4091DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D5A74A-6260-411B-B5EE-ACE92E4091DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D5A74A-6260-411B-B5EE-ACE92E4091DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6635A415-AFCF-406F-B102-9C145489FF02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6635A415-AFCF-406F-B102-9C145489FF02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6635A415-AFCF-406F-B102-9C145489FF02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6635A415-AFCF-406F-B102-9C145489FF02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
